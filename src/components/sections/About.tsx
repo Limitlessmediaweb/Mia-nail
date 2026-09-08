@@ -1,14 +1,24 @@
 import { SectionTitle } from "@/components/SectionTitle";
 import { useScrollReveal } from "@/hooks/useGsap";
-import reception from "@/assets/salon-reception.jpg";
-import stations from "@/assets/salon-stations.jpg";
-import lounge from "@/assets/salon-lounge.jpg";
+import reception from "@/assets/salon-reception.webp";
+import stations from "@/assets/salon-stations.webp";
+import boutique from "@/assets/salon-boutique.webp";
 
 const PHOTOS = [
-  { src: reception, alt: "Reception bianca di Mia Nail con gatto della fortuna dorato e fiori freschi" },
-  { src: stations, alt: "Postazioni manicure bianche con centinaia di smalti sulle mensole" },
-  { src: lounge, alt: "Zona boutique di Mia Nail con nicchie retroilluminate e sedute in velluto" },
+  {
+    src: reception,
+    alt: "Reception bianca di Mia Nail con scritta welcome, gatto della fortuna dorato, salvadanaio e fiori freschi",
+  },
+  {
+    src: stations,
+    alt: "Postazioni manicure bianche di Mia Nail con mensole di smalti a vista",
+  },
+  {
+    src: boutique,
+    alt: "Zona boutique di Mia Nail con nicchie retroilluminate e sedute in velluto grigio",
+  },
 ];
+
 
 export function About() {
   const ref = useScrollReveal<HTMLDivElement>({ childSelector: "[data-reveal]" });
