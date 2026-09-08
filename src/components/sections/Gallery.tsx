@@ -5,10 +5,10 @@ import { useScrollReveal, useParallax } from "@/hooks/useGsap";
 import reception from "@/assets/salon-reception.webp";
 import stations from "@/assets/salon-stations.webp";
 import boutique from "@/assets/salon-boutique.webp";
-import shimmerAsset from "@/assets/lavoro-shimmer.png.asset.json";
-import frenchVerdeAsset from "@/assets/lavoro-french-verde.png.asset.json";
-import cristalliAsset from "@/assets/lavoro-cristalli.png.asset.json";
-import frenchRossoAsset from "@/assets/lavoro-french-rosso.png.asset.json";
+import shimmerAsset from "@/assets/lavoro-shimmer.jpg.asset.json";
+import frenchVerdeAsset from "@/assets/lavoro-french-verde.jpg.asset.json";
+import cristalliAsset from "@/assets/lavoro-cristalli.jpg.asset.json";
+import frenchRossoAsset from "@/assets/lavoro-french-rosso.jpg.asset.json";
 import pedicure from "@/assets/pedicure.jpg";
 
 const IMAGES = [
