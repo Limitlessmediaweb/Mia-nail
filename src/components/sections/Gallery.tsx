@@ -5,17 +5,21 @@ import { useScrollReveal, useParallax } from "@/hooks/useGsap";
 import reception from "@/assets/salon-reception.webp";
 import stations from "@/assets/salon-stations.webp";
 import boutique from "@/assets/salon-boutique.webp";
-import nude from "@/assets/nails-nude.jpg";
-import french from "@/assets/nails-french.jpg";
+import shimmerAsset from "@/assets/lavoro-shimmer.png.asset.json";
+import frenchVerdeAsset from "@/assets/lavoro-french-verde.png.asset.json";
+import cristalliAsset from "@/assets/lavoro-cristalli.png.asset.json";
+import frenchRossoAsset from "@/assets/lavoro-french-rosso.png.asset.json";
 import pedicure from "@/assets/pedicure.jpg";
 import lashes from "@/assets/lashes.jpg";
 
 const IMAGES = [
+  { src: cristalliAsset.url, alt: "Ricostruzione unghie stiletto con cristalli e farfalle gioiello realizzata da Mia Nail" },
   { src: boutique, alt: "Postazioni manicure di Mia Nail con nicchie retroilluminate e smalti a vista" },
+  { src: frenchVerdeAsset.url, alt: "French manicure verde salvia con dettagli glitter oro realizzata da Mia Nail" },
   { src: reception, alt: "Reception del salone Mia Nail a Stradella con scritta welcome" },
-  { src: nude, alt: "Manicure semipermanente nude lucida realizzata da Mia Nail" },
+  { src: frenchRossoAsset.url, alt: "French manicure rossa con fiocchi e microperle realizzata da Mia Nail" },
   { src: stations, alt: "Postazioni manicure bianche e mensole di smalti nel salone Mia Nail" },
-  { src: french, alt: "French manicure con dettagli oro realizzata da Mia Nail" },
+  { src: shimmerAsset.url, alt: "Manicure effetto shimmer perlato con glitter realizzata da Mia Nail" },
   { src: lashes, alt: "Extension ciglia effetto naturale eseguite da Mia Nail" },
   { src: pedicure, alt: "Set per pedicure spa con asciugamani e ciotola dorata" },
 ];
