@@ -3,9 +3,7 @@ import { ArrowRight, Star } from "lucide-react";
 import gsap from "gsap";
 import { ensureGsap, prefersReducedMotion } from "@/hooks/useGsap";
 import { SITE, WHATSAPP_URL } from "@/data/site";
-import heroAsset from "@/assets/lavoro-cristalli.jpg.asset.json";
-
-const heroImage = heroAsset.url;
+import heroImage from "@/assets/lavoro-cristalli.jpg";
 
 export function Hero() {
   const root = useRef<HTMLElement | null>(null);
