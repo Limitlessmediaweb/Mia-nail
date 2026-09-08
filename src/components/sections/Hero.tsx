@@ -168,7 +168,7 @@ export function Hero() {
           <div className="absolute -inset-4 rounded-[2.5rem] bg-gold-soft/25 blur-2xl" aria-hidden="true" />
           <img
             src={heroImage}
-            alt="Mani con manicure semipermanente nude realizzata da Mia Nail a Stradella"
+            alt="Ricostruzione unghie stiletto con cristalli realizzata da Mia Nail a Stradella"
             width={1008}
             height={1008}
             fetchPriority="high"
