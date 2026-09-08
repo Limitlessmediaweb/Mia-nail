@@ -10,7 +10,6 @@ import frenchVerdeAsset from "@/assets/lavoro-french-verde.png.asset.json";
 import cristalliAsset from "@/assets/lavoro-cristalli.png.asset.json";
 import frenchRossoAsset from "@/assets/lavoro-french-rosso.png.asset.json";
 import pedicure from "@/assets/pedicure.jpg";
-import lashes from "@/assets/lashes.jpg";
 
 const IMAGES = [
   { src: cristalliAsset.url, alt: "Ricostruzione unghie stiletto con cristalli e farfalle gioiello realizzata da Mia Nail" },
@@ -20,7 +19,6 @@ const IMAGES = [
   { src: frenchRossoAsset.url, alt: "French manicure rossa con fiocchi e microperle realizzata da Mia Nail" },
   { src: stations, alt: "Postazioni manicure bianche e mensole di smalti nel salone Mia Nail" },
   { src: shimmerAsset.url, alt: "Manicure effetto shimmer perlato con glitter realizzata da Mia Nail" },
-  { src: lashes, alt: "Extension ciglia effetto naturale eseguite da Mia Nail" },
   { src: pedicure, alt: "Set per pedicure spa con asciugamani e ciotola dorata" },
 ];
 
