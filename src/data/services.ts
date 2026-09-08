@@ -88,7 +88,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
   },
   {
     id: "piedi-dito",
-    label: "Piedi (un dito)",
+    label: "Piedi",
     blurb: "Interventi singoli su una sola unghia del piede.",
     items: [
       { name: "Copertura", full: "€7", sale: "€5,25" },
@@ -101,7 +101,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
   },
   {
     id: "mani-dito",
-    label: "Mani (un dito)",
+    label: "Mani",
     blurb: "Interventi singoli su una sola unghia della mano.",
     items: [
       { name: "Copertura", full: "€6", sale: "€4,50" },
