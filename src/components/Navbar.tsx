@@ -3,6 +3,7 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, X, Phone } from "lucide-react";
 import { WHATSAPP_URL, SITE } from "@/data/site";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/mia-nail-logo.webp";
 
 const LINKS = [
   { label: "Servizi", hash: "servizi" },
@@ -40,8 +41,14 @@ export function Navbar() {
         aria-label="Navigazione principale"
         className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4"
       >
-        <Link to="/" className="font-logo text-3xl leading-none text-gradient-gold">
-          Mia Nail
+        <Link to="/" aria-label="Mia Nail — Home" className="shrink-0">
+          <img
+            src={logo}
+            alt="Mia Nail"
+            width={307}
+            height={220}
+            className="h-14 w-auto object-contain sm:h-16"
+          />
         </Link>
 
         <ul className="hidden items-center gap-7 lg:flex">
