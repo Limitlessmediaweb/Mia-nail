@@ -1,0 +1,12 @@
+{
+  "name": "Mia Nail — Stradella",
+  "short_name": "Mia Nail",
+  "description": "Salone di manicure e nail art a Stradella (PV).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfcf9",
+  "theme_color": "#c9a227",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "48x48", "type": "image/x-icon" }
+  ]
+}
