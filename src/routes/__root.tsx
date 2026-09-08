@@ -16,12 +16,19 @@ import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
 import { Analytics } from "@/components/Analytics";
 import { WHATSAPP_URL } from "@/data/site";
+import logo from "@/assets/mia-nail-logo.webp";
 
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-[var(--gradient-cream)] px-5">
       <div className="max-w-md text-center">
-        <p className="font-logo text-5xl text-gradient-gold">Mia Nail</p>
+        <img
+          src={logo}
+          alt="Mia Nail"
+          width={307}
+          height={220}
+          className="mx-auto h-28 w-auto object-contain"
+        />
         <h1 className="mt-6 text-7xl font-semibold text-foreground">404</h1>
         <h2 className="mt-3 text-xl font-semibold text-foreground">Pagina non trovata</h2>
         <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
@@ -107,7 +114,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/favicon.png", type: "image/png" },
       { rel: "manifest", href: "/site.webmanifest" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },

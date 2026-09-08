@@ -1,13 +1,21 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Instagram, MapPin, Phone, Clock } from "lucide-react";
 import { SITE } from "@/data/site";
+import logo from "@/assets/mia-nail-logo.webp";
 
 export function Footer() {
   return (
     <footer className="border-t border-border bg-secondary/50">
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 md:grid-cols-3">
         <div>
-          <p className="font-logo text-4xl text-gradient-gold">Mia Nail</p>
+          <img
+            src={logo}
+            alt="Mia Nail"
+            width={307}
+            height={220}
+            loading="lazy"
+            className="h-24 w-auto object-contain"
+          />
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted-foreground">
             Salone di manicure e nail art a Stradella: mani, piedi, ceretta, massaggi,
             ricostruzione gel, extension ciglia e trucco permanente.
